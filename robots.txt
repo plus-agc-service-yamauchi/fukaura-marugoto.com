@@ -1,0 +1,3 @@
+User-agent: *
+Disallow :
+Sitemap : http://fukaura-marugoto.com/sitemap.xml
