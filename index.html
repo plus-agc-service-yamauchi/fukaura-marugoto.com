@@ -151,27 +151,22 @@
             <div>
                 <img src="img/slide/slide_5.jpg" alt="スライド5" class="img-fluid"/>
             </div>
-            <div>
-                <img src="img/slide/slide_8.jpg" alt="スライド8" class="img-fluid"/>
-            </div>
         </div>
     </section>
     <section id="news">
         <div class="container">
             <h5>ニュース＆イベント</h5>
-            <?php $posts = get_posts("numberposts=5&orderby=post_date&offset=0");
-            foreach ($posts as $post): setup_postdata($post); ?>
                 <ul class="list-inline list-unstyled text-center">
                     <li class="list-inline-item">
-                        <span class="font-weight-bold"><?php the_time('Y.m.d'); ?></span>
+                        <!-- 日付 -->
+                        <span class="font-weight-bold">   </span>
                     </li>
                     <li class="list-inline-item">
-                        <a class="text-dark" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                        <a class="text-dark" href=""></a>
                     </li>
                 </ul>
-            <?php endforeach; ?>
             <p class="mt-5 text-center">
-                <a class="btn btn-md btn-seablue" href="news">記事一覧へ</a>
+                <a class="btn btn-md btn-seablue" href="news/index.html">記事一覧へ</a>
             </p>
         </div>
     </section>
