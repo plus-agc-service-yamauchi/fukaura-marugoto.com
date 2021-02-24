@@ -6,13 +6,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154412025-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-154412025-1');
+      gtag('config', 'UA-154412025-1');
     </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -126,12 +123,6 @@
                             <span class="d-block d-lg-none"><i class="fas fa-gift fa-2x"></i></span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="storelist_4.html">
-                            <span class="d-none d-lg-block">まるごと市場食堂</span>
-                            <span class="d-block d-lg-none"><i class="fas fa-utensils fa-2x"></i></span>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </section>
@@ -186,9 +177,7 @@
             </div>
         </section>
     </main>
-    <div id="pagetop" class="pagetop">
-        <a href="#"></a>
-    </div>
+    <div id="pagetop" class="pagetop"><a href="#"></a></div>
     <footer>
         <div class="d-none d-sm-block">
             <div class="container-fluid" style="background:url(img/footer.png) no-repeat;background-size:100% 100%;padding:60px 20px 20px 20px;">
@@ -200,8 +189,9 @@
                         <a href="https://www.facebook.com/海の駅ふかうら-深浦まるごと市場-2318724634804241/" target="_blank"><i class="fab fa-facebook text-white fa-2x"></i></a>
                     </div>
                     <div class="col-sm-9 col-xl-10 text-right text-white">
-                        〒038-2324 青森県西津軽郡深浦町大字深浦字浜町352-1<br /> TEL.0173-82-0315
-                        <br /> Copyright©深浦まるごと市場 All Rights Reserved
+                        〒038-2324 青森県西津軽郡深浦町大字深浦字浜町352-1<br />
+                        TEL.0173-82-0315<br />
+                        Copyright©深浦まるごと市場 All Rights Reserved
                     </div>
                 </div>
             </div>
@@ -215,8 +205,9 @@
                             <a href="https://www.facebook.com/海の駅ふかうら-深浦まるごと市場-2318724634804241/" target="_blank"><i class="fab fa-facebook text-white fa-2x"></i></a>
                         </p>
                         <p class="text-white">
-                            〒038-2324 青森県西津軽郡深浦町大字深浦字浜町352-1<br /> TEL.0173-82-0315
-                            <br /> Copyright©深浦まるごと市場 All Rights Reserved
+                            〒038-2324 青森県西津軽郡深浦町大字深浦字浜町352-1<br />
+                            TEL.0173-82-0315<br />
+                            Copyright©深浦まるごと市場 All Rights Reserved
                         </p>
                     </div>
                 </div>
@@ -229,9 +220,9 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="text/javascript" src="js/pagetop.js"></script>
     <script>
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
+    $(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
     </script>
 </body>
 
